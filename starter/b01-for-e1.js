@@ -23,11 +23,22 @@ EXEMPLE 1 :
 */
 
 // 1°) sans boucle
-
-
+    console.log(0);
+    console.log(1);
+    console.log(2);
+    console.log(3);
+    console.log(4);
+    console.log(5);
+    console.log(6);
+    console.log(7);
+    console.log(8);
+    console.log(9);
+    console.log(10);
 // 2°) avec boucle FOR
 
-
+for(let iboucle=0; iboucle<=10; iboucle++){
+    console.log(iboucle);
+}
 
 
 
