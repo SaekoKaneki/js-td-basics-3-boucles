@@ -29,7 +29,7 @@ EXEMPLE 1 :
 
 
 
-console.log('bouh!')
+
 
 
 
