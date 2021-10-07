@@ -15,15 +15,15 @@
 	"Voici les … premières valeurs de la table de multiplication par …" 
 */
 
-let intable = parseInt(prompt("Je peux vous afficher les n premières tables de multiplication.\n" +
-    "\tDites-moi à laquelle vous souhaitez que je m'arrête. Par exemple, si vous entrez 4,\n" +
-    "\tje vous afficherai les tables de multiplication par 1, par 2, par 3 et par 4.\n" +
-    "\tJusque quelle table voulez-vous que j'aille ?"))
-let ixvaleur = parseInt(prompt("Combien de valeurs souhaitez-vous que j'affiche\n" +
+const intable = parseInt(prompt("Combien de tables souhaitez-vous?"))
+const ixvaleur = parseInt(prompt("Combien de valeurs souhaitez-vous que j'affiche\n" +
     "\tpour chacune de ces tables ?"))
 console.log(`OK, je vais vous afficher les ${ixvaleur} premières valeurs des ${intable} premières tables de multiplication.`);
 console.log(`Voici les ${ixvaleur} premières valeurs de la table de multiplication par ${intable}`);
 
-for (let i=0; i<ixvaleur; i++){
-    console.log(intable*(i+1));
+for (let i=0; i<=intable+1; i+2){
+    for (let j=i; j<=ixvaleur;j++){
+        console.log(j);
+    }
+
  }
