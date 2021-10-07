@@ -13,6 +13,20 @@ N.B. Faites-le de deux manières différentes :
 */
 
 // avec FOR
-
+// let itable = parseInt(prompt('Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par'));
+// let ivaleur = parseInt(prompt('Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par'));
+// console.log(`Voici les ${ivaleur}  premières valeurs de la table de multiplication par ${itable}`);
+//
+// for (let i=0; i<ivaleur; i++){
+//     console.log(itable*(i+1));
+// }
 
 // avec WHILE
+let itable = parseInt(prompt('Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par'));
+let ivaleur = parseInt(prompt('Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par'));
+console.log(`Voici les ${ivaleur}  premières valeurs de la table de multiplication par ${itable}`);
+let i=0
+while (i<ivaleur){
+    console.log(itable*(i+1));
+    i++
+}
