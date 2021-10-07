@@ -16,3 +16,7 @@ EXEMPLE 2 : Mauvaise manipulation du compteur d'une boucle FOR
 */
 
 
+
+for(let inum=0;inum>=5;inum){
+    console.log(inum)
+}

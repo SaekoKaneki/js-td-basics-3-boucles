@@ -13,4 +13,7 @@ EXEMPLE 1 : Boucle WHILE infinie
   en oubliant volontairement la ligne qui incrémente la variable `nombre`.
 - Que se passe-t-il lorsqu'on exécute ce code dans un navigateur ?
 */
-
+let inum=0;
+while(inum>=5){
+    console.log(inum)
+}
