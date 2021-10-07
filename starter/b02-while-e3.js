@@ -15,4 +15,8 @@
 EXEMPLE 3 : 
 - Affichez les nombres pairs entre 0 et 20
 */
-
+let inum =0
+while (inum<=20){
+    console.log(inum);
+    inum+=2;
+}

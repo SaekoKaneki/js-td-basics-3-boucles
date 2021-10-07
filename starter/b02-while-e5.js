@@ -20,9 +20,14 @@
 
 // code de base sans le bonus
 
-
-
-
+let sletter;
+while (true){
+    sletter = prompt('Tapez un lettre et tapez X pour sortir');
+    if( sletter ==="X"){
+        break;
+    }
+}
+console.log(sletter);
 
 // code avec le bonus
 
