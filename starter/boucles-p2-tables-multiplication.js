@@ -25,5 +25,4 @@ for (let i=0; i<=intable+1; i+2){
     for (let j=i; j<=ixvaleur;j++){
         console.log(j);
     }
-
  }
