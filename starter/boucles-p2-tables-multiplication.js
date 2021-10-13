@@ -19,10 +19,11 @@ const intable = parseInt(prompt("Combien de tables souhaitez-vous?"))
 const ixvaleur = parseInt(prompt("Combien de valeurs souhaitez-vous que j'affiche\n" +
     "\tpour chacune de ces tables ?"))
 console.log(`OK, je vais vous afficher les ${ixvaleur} premières valeurs des ${intable} premières tables de multiplication.`);
-console.log(`Voici les ${ixvaleur} premières valeurs de la table de multiplication par ${intable}`);
+//console.log(`Voici les ${ixvaleur} premières valeurs de la table de multiplication par ${intable}`);
 
-for (let i=0; i<=intable+1; i++){
-    for (let j=i; j<=ixvaleur;j++){
-        console.log(`${i} * ${j} = ${i*j}`);
+for (let i=1; i<intable+1; i++){
+    console.log(`Voici les ${ixvaleur} premières valeurs de la table de multiplication par ${i}`);
+    for (let j=1; j<=ixvaleur;j++) {
+        console.log(`${i} * ${j} = ${i * j}`);
     }
  }
